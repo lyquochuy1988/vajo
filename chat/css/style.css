@@ -1,3 +1,15 @@
+:root {
+    --blue: #0D6CD8;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-link li a {
+    color: var(--blue);
+}
+
 img.top-img {
     width: 1200px;
     max-width: 100%;
@@ -7,10 +19,22 @@ img.top-img {
 
 .chat-heading {
     text-align: center;
-    margin: 62px 0 40px;
+    margin: 62px 0 20px;
 }
 
+.chat-subheading-h3 {
+    font-size: 52px;
+    line-height: 52px;
+}
 
+.chat-subheading-h4 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
 
 img.img-1 {
     width: 384px;
@@ -50,11 +74,12 @@ img.img-3 {
 }
 
 .primary-color {
-   color: var(--primary);
+   color: var(--blue);
 }
 
 .large-size {
-    font-size: 32px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .inner-row {
@@ -67,6 +92,12 @@ img.img-3 {
 p.chat-desc {
     font-size: 20px;
     line-height: 32px;
+}
+
+p.chat-desc::first-letter {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 p.text-center {
@@ -85,11 +116,6 @@ p.text-center {
 .section-download .inner-row {
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.chat-subheading-h3 {
-    font-size: 52px;
-    line-height: 52px;
 }
 
 img.download {
@@ -115,16 +141,67 @@ img.download {
     box-shadow: 0 1px 6px rgba(57,73,76,.35);
 }
 
-.navbar-header-inner {
+ul.main-link {
     display: flex;
+    margin-top: 9px;
+}
+
+
+/**************  Delete Account ***************/
+
+.delete-account .inner-row {
     justify-content: center;
-    align-items: center;
 }
 
-.main-link {
-    overflow: hidden;
+.main-delete-account {
+    margin-bottom: 50px;
 }
 
-.main-link li {
-    float: left;
+/**************  Term ***************/
+.main-term {
+    padding-bottom: 60px;
+}
+
+.main-term p.chat-desc {
+    font-size: 16px;
+    color: #333;
+}
+
+.main-term p.chat-desc::first-letter {
+    text-transform: uppercase;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.main-term .font-bold {
+    font-size: 16px;
+}
+
+.main-term .chat-heading {
+    border-bottom: 1px solid #cdd;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+ul.list-term {
+    list-style-type: disc;
+    margin-left: 16px;
+}
+
+ul.list-term li {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.main-term p.chat-desc.chat-desc-link::first-letter {
+    text-transform: lowercase;
+}
+
+.chat-desc a {
+    color: var(--blue);
+}
+
+/* **************   Privacy   *********** */
+.list-term.list-privacy {
+    list-style-type: lower-alpha;
 }
