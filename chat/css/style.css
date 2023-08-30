@@ -146,10 +146,14 @@ ul.main-link {
     margin-top: 9px;
 }
 
-.footer iframe {
-    margin-top: 50px;
-    margin-bottom: 30px;
+
+#myiframe {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 66%;
 }
+
+
 
 
 /**************  Delete Account ***************/
@@ -209,4 +213,10 @@ ul.list-term li {
 /* **************   Privacy   *********** */
 .list-term.list-privacy {
     list-style-type: lower-alpha;
+}
+
+
+/* Iframe change style */
+iframe body {
+    background-color: red !important;
 }
