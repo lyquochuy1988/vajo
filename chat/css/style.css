@@ -32,7 +32,7 @@ img.top-img {
     line-height: 22px;
     font-weight: 400;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: inherit;
     margin-bottom: 30px;
 }
 
@@ -144,6 +144,11 @@ img.download {
 ul.main-link {
     display: flex;
     margin-top: 9px;
+}
+
+.footer iframe {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 
