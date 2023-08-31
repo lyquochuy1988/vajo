@@ -56,59 +56,121 @@
     }
 }
 
+/*  Height Iframe */
+
+@media only screen and (max-width:  1500px) {
+    #myiframe {
+        height: 560px;
+    }
+}
+
+@media only screen and (max-width:  912px) {
+    #myiframe {
+        height: 662px;
+    }
+}
+
+@media only screen and (max-width:  896px) {
+    #myiframe {
+        height: 562px;
+    }
+}
+
+@media only screen and (max-width:  883px) {
+    #myiframe {
+        height: 562px;
+    }
+}
+
+@media only screen and (max-width:  820px) {
+    #myiframe {
+        height: 578px;
+    }
+}
+
 @media only screen and (max-width:  580px) {
     #myiframe {
-        height: 72%;
+        height: 560px;
     }
 }
 
-@media only screen and (max-width:  560px) {
+@media only screen and (max-width:  540px) {
     #myiframe {
-        height: 76%;
-    }
-}
-
-@media only screen and (max-width:  530px) {
-    #myiframe {
-        height: 80%;
+        height: 620px;
     }
 }
 
 @media only screen and (max-width:  500px) {
     #myiframe {
-        height: 84%;
+        height: 710px;
     }
 }
 
+@media only screen and (max-width:  480px) {
+    #myiframe {
+        height: 724px;
+    }
+}
+
+
 @media only screen and (max-width:  460px) {
     #myiframe {
-        height: 86%;
+        height: 734px;
     }
 }
 
 @media only screen and (max-width:  430px) {
     #myiframe {
-        height: 88%;
+        height: 740px;
+    }
+}
+
+@media only screen and (max-width:  414px) {
+    #myiframe {
+        height: 742px;
     }
 }
 
 
 @media only screen and (max-width:  400px) {
     #myiframe {
-        height: 92%;
+        height: 746px;
     }
 }
+
+@media only screen and (max-width:  390px) {
+    #myiframe {
+        height: 736px;
+    }
+}
+
 
 @media only screen and (max-width:  380px) {
     #myiframe {
-        height: 100%;
-        overflow: scroll !important;
+        height: 778px;
     }
 }
 
-@media only screen and (max-width:  340px) {
+@media only screen and (max-width:  375px) {
     #myiframe {
-        height: 116%;
-        overflow: scroll !important;
+        height: 768px;
+    }
+}
+
+@media only screen and (max-width:  360px) {
+    #myiframe {
+        height: 788px;
+    }
+}
+
+@media only screen and (max-width:  320px) {
+    #myiframe {
+        height: 894px;
+    }
+}
+
+@media only screen and (max-width:  280px) {
+    #myiframe {
+        height: 1140px;
     }
 }

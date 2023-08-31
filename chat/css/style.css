@@ -150,7 +150,7 @@ ul.main-link {
 #myiframe {
     margin-top: 30px;
     margin-bottom: 40px;
-    height: 66%;
+    height: 564px;
 }
 
 
@@ -219,4 +219,18 @@ ul.list-term li {
 /* Iframe change style */
 iframe body {
     background-color: red !important;
+}
+
+
+/***********************   Multi Language   *************************/
+ul.flags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 50px;
+}
+
+.flags li img {
+    width: 48px;
 }
